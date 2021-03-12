@@ -13,4 +13,4 @@ Materiales del curso básico de HTML 5.
 
 ...
 
-![Esta es una imagen de ejemplo](https://es.wikipedia.org/wiki/HTML#/media/Archivo:HTML5_logo_and_wordmark.svg)
+![Esta es una imagen de ejemplo](http://lineadecodigo.com/wp-content/uploads/2014/04/html5.png)
