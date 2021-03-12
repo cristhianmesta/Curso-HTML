@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <!-- Forms -->
+    <form id="mi-formulario" action="" method="">
+        <fieldset>
+            <legend>Mi Formulario</legend>
+            <div>
+                <label for="texto">Input text</label>
+                <input type="text" name="texto" id="texto" placeholder="Ingrese un dato..." required>
+            </div>
+            <input type="hidden" name="oculto" id="oculto" value="Este es un mensaje oculto" >
+            <div>
+                <label for="numero">Input number</label>
+                <input type="number" name="numero" id="numero" placeholder="0"> 
+            </div>
+            <div>
+                <label for="contrasena">Input password</label>
+                <input type="password" name="contrasena" id="contrasena" placeholder="********"> 
+            </div>
+            <div>
+                <label for="fecha">Input fecha</label>
+                <input type="date" name="fecha" id="fecha"> 
+            </div>
+            <div>
+                <label for="mes">Input mes</label>
+                <input type="month" name="mes" id="mes"> 
+            </div>
+            <div>
+                <label for="semana">Input semana</label>
+                <input type="week" name="semana" id="semana"> 
+            </div>
+            <div>
+                <label for="hora">Input hora</label>
+                <input type="time" name="hora" id="hora"> 
+            </div>
+            <div>
+                <label for="fecha_hora">Input fecha y hora</label>
+                <input type="datetime-local" name="fecha_hora" id="fecha_hora"> 
+            </div>
+            <div>
+                <label for="color">Input color</label>
+                <input type="color" name="color" id="color"> 
+            </div>
+            <div>
+                <label for="color">Radio</label>
+                <input type="radio" name="radio" id="radio" value="1" checked>
+                <label>Uno</label>
+                <input type="radio" name="radio" id="radio" value="2" >
+                <label>Dos</label>
+            </div>
+            <div>
+                <label for="check">¿Acepta los términos?</label>
+                <input type="checkbox" name="check" id="check" value="1" >Acepto
+            </div>
+            <div>
+                <label for="rango">Rango</label>
+                <input type="range" name="rango" id="rango" min="1" max="10" >
+            </div>
+            <div>
+                <label for="arcihivo">Arcihivo</label>
+                <input type="file" name="arcihivo" id="arcihivo" >
+            </div>
+            <div>
+                <label for="telefono">Teléfono</label>
+                <input type="tel" name="telefono" id="telefono" 
+                        placeholder="123-4567-8901" 
+                        size="11" 
+                        minlength="9" 
+                        maxlength="11"
+                        pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+            </div>
+            <div>
+                <label for="check">Select</label>
+                <select name="lista" id="lista">
+                    <option value="" selected>Seleccionar</option>
+                    <option value="1">Perro</option>
+                    <option value="2">Gato</option>
+                    <option value="3">Ratón</option>
+                    <option value="4">Pájaro</option>
+                </select>
+            </div>
+            <div>
+                <label for="lenguajes">Lenguajes </label>
+                <input type="text" id="lenguajes" name="lenguajes" list="mi-lista" placeholder="Seleccionar" required>
+
+                <datalist id="mi-lista">
+                <option value="Python">
+                <option value="JavaScript">
+                <option value="Go">
+                <option value="C#">
+                </datalist>
+            </div>
+            <div>
+                <label for="check">Text Area</label>
+                <textarea name="textarea" id="texarea" placeholder="Escribe aqui un texto extenso"></textarea>
+            </div>
+            <br>
+
+            <input type="reset" value="LIMPIAR">
+            <input type="submit" value="ENVIAR">
+            
+            <!-- Otra forma de botones -->
+            <!-- 
+             <input type="button" value="Boton Normal">
+            <button>Soy un botón</button>
+            <button type="submit"><b>B</b>oton</button>  
+            -->
+        </fieldset>
+       
+    </form>
+
+</body>
+</html>
