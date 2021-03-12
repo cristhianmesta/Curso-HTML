@@ -13,4 +13,4 @@ Materiales del curso básico de HTML 5.
 
 ...
 
-!(URL "https://es.wikipedia.org/wiki/HTML5#/media/Archivo:HTML5_logo_and_wordmark.svg")
+[img1]: http://www.maestrosdelweb.com/images/2011/09/logo-html5.jpg "Título alternativo"
