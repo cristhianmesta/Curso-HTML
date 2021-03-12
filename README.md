@@ -13,4 +13,4 @@ Materiales del curso básico de HTML 5.
 
 ...
 
-![Esta es una imagen de ejemplo](http://www.maestrosdelweb.com/images/2011/09/logo-html5.jp)
+![Esta es una imagen de ejemplo](https://es.wikipedia.org/wiki/HTML#/media/Archivo:HTML5_logo_and_wordmark.svg)
